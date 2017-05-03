@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "jsx": "react",
+    "types" : ["es6-promise", "node"]
+  },
+  "exclude": [
+    "src/server.tsx",
+    "node_modules"
+  ]
+}
